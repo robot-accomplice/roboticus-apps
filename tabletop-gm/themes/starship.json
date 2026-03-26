@@ -1,0 +1,56 @@
+{
+  "id": "starship",
+  "name": "Starship Bridge",
+  "description": "Cool blues and holographic cyan — starship command deck for science fiction campaigns",
+  "author": "Roboticus Apps",
+  "swatch": "#00b4d8",
+  "variables": {
+    "--bg": "#050a12",
+    "--surface": "#0a1220",
+    "--surface-2": "#0e1a2e",
+    "--surface-3": "#12223c",
+    "--surface-4": "#162a4a",
+    "--border": "#1e3a5f",
+    "--border-ghost": "rgba(30, 58, 95, 0.25)",
+    "--text": "#c8dff0",
+    "--muted": "#6a8faa",
+    "--outline": "#3d6080",
+    "--accent": "#00b4d8",
+    "--accent-dim": "rgba(0, 180, 216, 0.12)",
+    "--accent-glow": "rgba(0, 180, 216, 0.35)",
+    "--secondary": "#48cae4",
+    "--tertiary": "#90e0ef",
+    "--success": "#00c896",
+    "--warning": "#e8a838",
+    "--error": "#e85454",
+    "--radius": "2px",
+    "--radius-sm": "1px",
+    "--radius-xl": "4px",
+    "--shadow": "0 4px 16px -2px rgba(5, 10, 18, 0.7), 0 2px 6px -2px rgba(5, 10, 18, 0.5)",
+    "--shadow-glow": "0 0 20px rgba(0, 180, 216, 0.15)",
+    "--font": "'Rajdhani', 'Inter', -apple-system, sans-serif",
+    "--font-headline": "'Orbitron', 'Space Grotesk', monospace",
+    "--font-mono": "'Share Tech Mono', 'JetBrains Mono', ui-monospace, monospace",
+    "--crt-scanline": "rgba(0,180,216,0.015)",
+    "--crt-vignette": "rgba(0,0,0,0.4)",
+    "--text-glow": "rgba(0,180,216,0.12)",
+    "--robot-color": "#00b4d8"
+  },
+  "textures": {
+    "body": {
+      "type": "css",
+      "value": "repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(0,180,216,0.008) 1px, rgba(0,180,216,0.008) 2px)"
+    },
+    "surface": {
+      "type": "css",
+      "value": "linear-gradient(135deg, rgba(0,180,216,0.02) 0%, transparent 40%, rgba(0,200,150,0.015) 100%)"
+    },
+    "header": {
+      "type": "css",
+      "value": "linear-gradient(90deg, rgba(0,180,216,0.06) 0%, transparent 50%, rgba(0,180,216,0.03) 100%)"
+    }
+  },
+  "fonts": [
+    "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Rajdhani:wght@400;500;600&family=Share+Tech+Mono&display=swap"
+  ]
+}
