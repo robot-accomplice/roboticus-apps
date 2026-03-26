@@ -1,0 +1,56 @@
+{
+  "id": "parchment",
+  "name": "Parchment & Ink",
+  "description": "Warm parchment tones with ink accents — built for tabletop adventure",
+  "author": "Roboticus Apps",
+  "swatch": "#8b4513",
+  "variables": {
+    "--bg": "#1a1410",
+    "--surface": "#241e16",
+    "--surface-2": "#2e261c",
+    "--surface-3": "#382f22",
+    "--surface-4": "#433828",
+    "--border": "#5c4a35",
+    "--border-ghost": "rgba(92, 74, 53, 0.25)",
+    "--text": "#e8dcc8",
+    "--muted": "#a89478",
+    "--outline": "#7a6652",
+    "--accent": "#c17f3a",
+    "--accent-dim": "rgba(193, 127, 58, 0.15)",
+    "--accent-glow": "rgba(193, 127, 58, 0.35)",
+    "--secondary": "#d4a76a",
+    "--tertiary": "#6b9e8a",
+    "--success": "#6b9e6b",
+    "--warning": "#c4a43e",
+    "--error": "#b54545",
+    "--radius": "6px",
+    "--radius-sm": "3px",
+    "--radius-xl": "10px",
+    "--shadow": "0 4px 16px -2px rgba(10, 8, 5, 0.6), 0 2px 6px -2px rgba(10, 8, 5, 0.4)",
+    "--shadow-glow": "0 0 20px rgba(193, 127, 58, 0.12)",
+    "--font": "'Crimson Text', 'Georgia', 'Times New Roman', serif",
+    "--font-headline": "'Cinzel', 'Trajan Pro', 'Georgia', serif",
+    "--font-mono": "'JetBrains Mono', ui-monospace, 'SF Mono', monospace",
+    "--crt-scanline": "rgba(0,0,0,0.02)",
+    "--crt-vignette": "rgba(0,0,0,0.3)",
+    "--text-glow": "rgba(193, 127, 58, 0.08)",
+    "--robot-color": "#c17f3a"
+  },
+  "textures": {
+    "body": {
+      "type": "css",
+      "value": "repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(139,69,19,0.015) 2px, rgba(139,69,19,0.015) 4px), repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(139,69,19,0.01) 3px, rgba(139,69,19,0.01) 6px)"
+    },
+    "surface": {
+      "type": "css",
+      "value": "radial-gradient(ellipse at 20% 50%, rgba(193,127,58,0.04) 0%, transparent 70%), radial-gradient(ellipse at 80% 20%, rgba(139,69,19,0.03) 0%, transparent 60%)"
+    },
+    "header": {
+      "type": "css",
+      "value": "linear-gradient(180deg, rgba(193,127,58,0.08) 0%, transparent 100%)"
+    }
+  },
+  "fonts": [
+    "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+  ]
+}
