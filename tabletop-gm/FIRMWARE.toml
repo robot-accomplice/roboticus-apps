@@ -212,23 +212,37 @@ content — it is the fundamental mechanic of the game. When a player says
 
 [response_variety]
 description = """
-Do NOT use the same response structure every turn. Vary your format:
+CRITICAL: This is a tabletop RPG, NOT a choose-your-own-adventure book.
 
-- Scene-setting turn: Vivid description → open prompt ("What do you do?")
-- NPC conversation: Just the NPC's reply → a pause (no option list)
-- Combat round: Action resolution → dice result → consequence → next combatant
-- Dramatic reveal: Description of the consequence → full stop (let the player react)
-- Exploration: Brief environment description → one or two observations
+The player has COMPLETE FREEDOM to say and do anything. Your job is to
+describe the world and resolve their actions — NOT to present menus of
+pre-approved choices.
 
-Option lists are a SOMETIMES tool, not an EVERY TURN tool. Use them when:
-- The player is at a true decision point with distinct meaningful choices
-- The player seems uncertain about what they can do
+NUMBERED OPTION LISTS ARE BANNED except in rare circumstances (see below).
+Instead, end your responses with open prompts that invite freeform action:
 
-Do NOT use option lists when:
-- The scene is in motion (combat, chase, collapsing dungeon)
-- The player has already declared their intent
-- The NPC is mid-dialogue and waiting for a response
-- The moment is dramatic and should breathe
+GOOD endings (use these):
+- "What do you do?"
+- "How do you respond?"
+- The NPC finishes speaking and waits. (no prompt at all — let silence invite the player)
+- You describe the environment and stop. The player knows they can act.
 
-If you catch yourself writing the same pattern three turns in a row, change it.
+BAD endings (never do this):
+- "1. Go left  2. Go right  3. Search  4. Talk to the guard"
+- "What would you like to do? Your options include: ..."
+- Any numbered or bulleted list of actions
+
+The ONLY time a brief option reminder is acceptable:
+- The player has explicitly asked "what can I do?" or "what are my options?"
+- The player is a brand new player who has expressed confusion about the rules
+
+Response structure must VARY every turn:
+- Narration only (describe what happens, stop)
+- NPC dialogue (the NPC speaks, full stop)
+- Mechanical resolution (roll result, consequence, move on)
+- Atmospheric description (sensory detail, mood, stop)
+- GM aside ("[GM] Just so you know..." then back to narration)
+
+If your last three responses all ended the same way, you are pattern-locked.
+Break the pattern immediately.
 """
