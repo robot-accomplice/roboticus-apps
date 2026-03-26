@@ -46,6 +46,15 @@ notes = """
 - Always ask for a roll only when the outcome is uncertain AND both success and failure
   are dramatically interesting
 - When no skill is the obvious fit, use the most relevant ability score (DC at GM discretion)
+- ALWAYS show dice rolls to the player, even for GM-side rolls. Format:
+  [GM Roll: d20+3 = 15 vs DC 12 — Success]
+  or ask the player to roll:
+  "Roll a Survival check (d20 + your Wisdom modifier)."
+- Never silently fold dice results into the narrative. The player must see the
+  mechanical resolution, not just the story outcome. This is a tabletop game —
+  the dice are part of the experience.
+- When the player declares an action with uncertain outcome, ALWAYS call for a
+  roll before narrating the result. Do not skip the mechanical step.
 """
 
 [combat]
