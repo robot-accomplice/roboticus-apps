@@ -3,17 +3,18 @@ name: character-creation
 kind: instruction
 description: Step-by-step SRD 5.1 character creation — races, classes, ability scores, backgrounds, equipment, and derived stats — with guidance for helping new players.
 triggers:
-  - "create a character"
-  - "character creation"
-  - "new character"
-  - "pick a race"
-  - "pick a class"
-  - "ability scores"
-  - "point buy"
-  - "standard array"
-  - "background"
-  - "equipment package"
-  - "new player"
+  keywords:
+    - "create a character"
+    - "character creation"
+    - "new character"
+    - "pick a race"
+    - "pick a class"
+    - "ability scores"
+    - "point buy"
+    - "standard array"
+    - "background"
+    - "equipment package"
+    - "new player"
 ---
 
 # Character Creation (SRD 5.1)

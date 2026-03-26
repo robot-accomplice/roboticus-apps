@@ -3,17 +3,18 @@ name: encounter-running
 kind: instruction
 description: How to run combat encounters — starting combat, initiative order, turn flow, player turns, creature turns, reactions, and ending combat.
 triggers:
-  - "start combat"
-  - "roll initiative"
-  - "begin the encounter"
-  - "combat starts"
-  - "how do I run"
-  - "turn order"
-  - "creature's turn"
-  - "my turn"
-  - "reaction"
-  - "opportunity attack"
-  - "end combat"
+  keywords:
+    - "start combat"
+    - "roll initiative"
+    - "begin the encounter"
+    - "combat starts"
+    - "how do I run"
+    - "turn order"
+    - "creature's turn"
+    - "my turn"
+    - "reaction"
+    - "opportunity attack"
+    - "end combat"
 ---
 
 # Running Combat Encounters

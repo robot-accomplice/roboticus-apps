@@ -3,17 +3,18 @@ name: core-rules
 kind: instruction
 description: SRD 5.1 core rules quick reference — ability checks, saving throws, attack rolls, damage, advantage/disadvantage, conditions, concentration, death saves, and rest.
 triggers:
-  - "how does [X] work"
-  - "what's the rule for"
-  - "ability check"
-  - "saving throw"
-  - "advantage"
-  - "disadvantage"
-  - "condition"
-  - "concentration"
-  - "death save"
-  - "short rest"
-  - "long rest"
+  keywords:
+    - "how does [X] work"
+    - "what's the rule for"
+    - "ability check"
+    - "saving throw"
+    - "advantage"
+    - "disadvantage"
+    - "condition"
+    - "concentration"
+    - "death save"
+    - "short rest"
+    - "long rest"
 ---
 
 # Core Rules Quick Reference (SRD 5.1)

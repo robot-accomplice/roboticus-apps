@@ -3,15 +3,16 @@ name: creature-reference
 kind: instruction
 description: SRD 5.1 creature stat blocks organized by Challenge Rating (CR 0–10), creature tactics by intelligence level, encounter building guidelines, and improvised creature rules. All stat blocks are SRD 5.1 / Creative Commons licensed.
 triggers:
-  - "stat block"
-  - "creature stats"
-  - "monster"
-  - "what CR"
-  - "challenge rating"
-  - "encounter building"
-  - "how many enemies"
-  - "creature tactics"
-  - "improvise a creature"
+  keywords:
+    - "stat block"
+    - "creature stats"
+    - "monster"
+    - "what CR"
+    - "challenge rating"
+    - "encounter building"
+    - "how many enemies"
+    - "creature tactics"
+    - "improvise a creature"
 ---
 
 # Creature Reference (SRD 5.1)

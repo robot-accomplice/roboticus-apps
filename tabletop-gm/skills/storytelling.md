@@ -3,18 +3,19 @@ name: storytelling
 kind: instruction
 description: Adaptive storytelling techniques for GMs — improv frameworks, pacing, dramatic tension, the three pillars, handling derailment, and describing failure as interesting rather than punishing.
 triggers:
-  - "storytelling"
-  - "yes and"
-  - "improv"
-  - "pacing"
-  - "dramatic tension"
-  - "foreshadowing"
-  - "player derailment"
-  - "cliffhanger"
-  - "narrative consequences"
-  - "three pillars"
-  - "session ending"
-  - "story techniques"
+  keywords:
+    - "storytelling"
+    - "yes and"
+    - "improv"
+    - "pacing"
+    - "dramatic tension"
+    - "foreshadowing"
+    - "player derailment"
+    - "cliffhanger"
+    - "narrative consequences"
+    - "three pillars"
+    - "session ending"
+    - "story techniques"
 ---
 
 # Storytelling Techniques for GMs

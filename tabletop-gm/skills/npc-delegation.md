@@ -3,14 +3,15 @@ name: npc-delegation
 kind: instruction
 description: How to compose subagents for significant NPCs and enemy groups — when to create them, the composition template, delegation protocol during play, and retiring NPCs.
 triggers:
-  - "npc subagent"
-  - "delegate to"
-  - "compose an npc"
-  - "villain agent"
-  - "enemy agent"
-  - "npc agent"
-  - "subagent for"
-  - "important npc"
+  keywords:
+    - "npc subagent"
+    - "delegate to"
+    - "compose an npc"
+    - "villain agent"
+    - "enemy agent"
+    - "npc agent"
+    - "subagent for"
+    - "important npc"
 ---
 
 # NPC Delegation via Subagents

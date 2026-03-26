@@ -3,18 +3,19 @@ name: vivid-description
 kind: instruction
 description: Immersive GM description techniques — five senses framework, environment types, combat hit descriptions by damage type, spell school visuals, NPC portrayal, weather as mood, show-don't-tell, and scaling description intensity.
 triggers:
-  - "description"
-  - "describe the scene"
-  - "vivid"
-  - "immersive"
-  - "five senses"
-  - "combat description"
-  - "spell effect"
-  - "npc appearance"
-  - "environment"
-  - "atmosphere"
-  - "show don't tell"
-  - "set the scene"
+  keywords:
+    - "description"
+    - "describe the scene"
+    - "vivid"
+    - "immersive"
+    - "five senses"
+    - "combat description"
+    - "spell effect"
+    - "npc appearance"
+    - "environment"
+    - "atmosphere"
+    - "show don't tell"
+    - "set the scene"
 ---
 
 # Vivid Description for GMs

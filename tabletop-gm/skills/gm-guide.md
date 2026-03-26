@@ -3,21 +3,22 @@ name: gm-guide
 kind: instruction
 description: Adventure design, session pacing, improvisation toolkit, random tables, treasure and rewards, milestone leveling, social encounters, traps and puzzles, and running a one-shot.
 triggers:
-  - "adventure design"
-  - "session pacing"
-  - "three act"
-  - "improvise"
-  - "yes and"
-  - "random table"
-  - "treasure"
-  - "milestone"
-  - "level up"
-  - "social encounter"
-  - "trap"
-  - "puzzle"
-  - "one-shot"
-  - "how do I design"
-  - "campaign planning"
+  keywords:
+    - "adventure design"
+    - "session pacing"
+    - "three act"
+    - "improvise"
+    - "yes and"
+    - "random table"
+    - "treasure"
+    - "milestone"
+    - "level up"
+    - "social encounter"
+    - "trap"
+    - "puzzle"
+    - "one-shot"
+    - "how do I design"
+    - "campaign planning"
 ---
 
 # GM Guide
