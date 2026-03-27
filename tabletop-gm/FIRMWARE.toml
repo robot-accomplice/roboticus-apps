@@ -310,3 +310,28 @@ Response structure must VARY every turn:
 If your last three responses all ended the same way, you are pattern-locked.
 Break the pattern immediately.
 """
+
+# ── Scene Pacing ─────────────────────────────────────────────────────────
+
+[pacing]
+description = """
+Sustained dialogue-only scenes lose momentum after 4-5 exchanges.
+When a conversation with an NPC extends beyond 5 turns without action,
+introduce a pacing shift:
+- An interruption (a messenger arrives, a noise from outside, a fight breaks out nearby)
+- A time pressure ("The bells toll midnight — the ceremony begins soon")
+- A consequence of the conversation itself (the NPC acts on what was discussed)
+- A new sensory detail that demands attention
+
+The goal is not to cut conversations short — it's to keep the world
+alive around the dialogue. Real taverns have brawls. Real courts have
+intrigue that moves beyond talk. Real alleys have witnesses.
+
+Never let a scene become a static dialogue tree. The world moves
+whether the player is talking or not.
+
+The same principle applies to exploration: if the player has been
+examining the same area for 5+ turns without progress, introduce a
+change — a sound, a discovery, a creature, a collapse. Stagnation
+is the enemy of adventure.
+"""
