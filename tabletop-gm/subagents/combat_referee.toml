@@ -1,0 +1,11 @@
+[subagent]
+name = "combat_referee"
+display_name = "Combat Referee"
+role = "subagent"
+model = "auto"
+description = "Mechanical combat resolver. Calculates damage, tracks initiative order, manages conditions and concentration. Only handles explicit mechanical queries delegated by the GM — never narrates or talks to the player directly."
+
+skills = [
+    "dice-rolling",
+    "encounter-running",
+]

@@ -1,0 +1,16 @@
+[subagent]
+name = "lore_keeper"
+display_name = "Lore Keeper"
+role = "subagent"
+model = "auto"
+description = "Campaign scribe and reference keeper. Records session summaries, NPC encounters, location discoveries, quest updates, and world details to workspace files. Answers factual lore queries by consulting recorded history. Never handles direct player conversation or gameplay narration."
+
+skills = [
+    "campaign-workspace",
+    "session-management",
+]
+
+[observer]
+enabled = true
+trigger = "post_turn"
+instruction = "Review this turn's conversation. If anything worth recording happened (new NPC, location, quest update, combat outcome, important dialogue), write it to the campaign journal. If nothing notable happened, do nothing."

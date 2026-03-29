@@ -1,0 +1,48 @@
+[package]
+name = "tabletop-gm"
+version = "1.0.0"
+description = "Collaborative storyteller for tabletop RPG sessions using the d20 system"
+author = "Robot Accomplice AG"
+license = "Apache-2.0"
+min_roboticus_version = "0.11.1"
+homepage = "https://roboticus.ai/apps/tabletop-gm"
+repository = "https://github.com/robot-accomplice/roboticus-apps"
+
+[requirements]
+min_model_params = "32B"
+recommended_model = "ollama/qwen2.5:32b"
+embedding_model = "nomic-embed-text"
+delegation_enabled = true
+
+[profile]
+agent_name = "The Narrator"
+agent_id = "narrator"
+default_theme = "parchment-and-ink"
+
+[[tested]]
+model = "moonshot/kimi-k2-turbo-preview"
+hardware = "Cloud API"
+behavior_pass_rate = 0.87
+gm_pass_rate = 0.96
+notes = "Best overall quality — recommended for cloud deployments"
+
+[[tested]]
+model = "ollama/qwen2.5:32b"
+hardware = "MacBook Air M3 32GB, macOS 15.4"
+behavior_pass_rate = 0.96
+gm_pass_rate = 0.96
+notes = "Local-only, zero network dependency — recommended for self-hosted"
+
+[[tested]]
+model = "ollama/phi4-reasoning:14b"
+hardware = "MacBook Air M3 32GB, macOS 15.4"
+behavior_pass_rate = 0.72
+gm_pass_rate = 0.72
+notes = "Insufficient for GM persona — fails impossible-action denial"
+
+[[tested]]
+model = "ollama/gemma3:12b"
+hardware = "MacBook Air M3 32GB, macOS 15.4"
+behavior_pass_rate = 0.80
+gm_pass_rate = 0.80
+notes = "Insufficient for GM persona — fails behavioral contract adherence"

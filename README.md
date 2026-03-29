@@ -1,32 +1,49 @@
 # Roboticus Apps
 
-Ready-made agent configurations for [Roboticus](https://github.com/robot-accomplice/roboticus) — the autonomous agent runtime.
+Official application packages for the [Roboticus](https://github.com/robot-accomplice/roboticus) autonomous agent runtime.
 
-Each directory is a standalone application package containing a persona (`FIRMWARE.toml`), skills, and documentation. Copy a package into your Roboticus workspace to deploy it as an agent.
+## What are apps?
 
-## Available Apps
+An app is a complete agent configuration package: persona (FIRMWARE), skills, subagents, themes, and workspace templates — everything needed to turn Roboticus into a specialized agent for a specific use case.
 
-| App | Description |
-|-----|-------------|
-| [tabletop-gm](tabletop-gm/) | Tabletop adventure RPG Game Master — collaborative storytelling with SRD-compatible d20 rules |
-
-## Installation
+## Installing an app
 
 ```bash
-# Copy an app's persona and skills to your Roboticus instance
-cp apps/tabletop-gm/FIRMWARE.toml ~/.roboticus/workspace/
-cp apps/tabletop-gm/skills/*.md ~/.roboticus/skills/
+roboticus apps install tabletop-gm
 ```
 
-Then restart Roboticus or start a new session.
+This creates a new profile, copies all configuration, and registers subagents. Start with:
 
-## Contributing
+```bash
+roboticus serve --profile tabletop-gm
+```
 
-Each app should include:
-- `FIRMWARE.toml` — Agent persona and behavioral rules
-- `skills/` — Skill files that provide domain knowledge
-- `README.md` — Description, setup instructions, and usage examples
+## Available apps
+
+| App | Description | Min Model |
+|-----|-------------|-----------|
+| [tabletop-gm](tabletop-gm/) | Collaborative storyteller for tabletop RPG sessions | 32B+ |
+
+## App package format
+
+Each app is a directory containing:
+
+```
+app-name/
+├── manifest.toml         # Package metadata, version, dependencies
+├── FIRMWARE.toml          # Agent persona and behavioral rules
+├── README.md              # User-facing description
+├── config-overrides.toml  # Agent config fields to merge
+├── skills/                # Skill .md files
+├── subagents/             # Subagent definitions (.toml)
+├── themes/                # Bundled theme JSON files
+└── workspace/             # Template workspace files
+```
+
+## Creating an app
+
+See the [App Development Guide](https://roboticus.ai/docs/apps) for details.
 
 ## License
 
-Apache 2.0 — same as Roboticus.
+Apache-2.0

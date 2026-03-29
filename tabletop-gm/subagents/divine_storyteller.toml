@@ -1,0 +1,13 @@
+[subagent]
+name = "divine_storyteller"
+display_name = "Divine Storyteller"
+role = "subagent"
+model = "auto"
+description = "Specialist for divine character development, theological storytelling, and narrative elements involving gods or divine beings in tabletop RPG contexts."
+
+skills = [
+    "character-creation",
+    "npc-delegation",
+    "storytelling",
+    "world-building",
+]
