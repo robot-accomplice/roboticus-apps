@@ -23,9 +23,26 @@ roboticus profile switch tabletop-gm
 
 ## Available Apps
 
-| App | Description | Min Model | Tested On |
-|-----|-------------|-----------|-----------|
-| [Tabletop GM](tabletop-gm/) | Collaborative storyteller for tabletop RPG sessions | 32B+ | qwen2.5:32b (96%), Kimi K2 (96%) |
+| App | Description | Min Model | Status |
+|-----|-------------|-----------|--------|
+| [Tabletop GM](tabletop-gm/) | Collaborative storyteller for tabletop RPG sessions | 32B+ | Available |
+
+## Planned Apps
+
+| App | Description | Category |
+|-----|-------------|----------|
+| **Language Teacher** | Immersive language learning through adaptive conversation in the target language. Tracks vocabulary mastery, grammar patterns, and confidence per topic. Spaced repetition via observer subagent. | Education |
+| **Research Analyst** | Ingests papers, reports, and articles into a structured knowledge base. Answers questions with citations, produces synthesis documents, tracks research threads across sessions. | Knowledge Work |
+| **Portfolio Monitor** | Watches wallet positions, DeFi protocols, and market conditions. Surfaces risks and opportunities, produces daily briefings, tracks performance over time. | Finance |
+| **Code Reviewer** | Persistent codebase knowledge across PRs. Reviews with context from prior reviews, tracks recurring issues, produces actionable feedback (not nitpicks). | Development |
+| **Worldbuilder** | Builds coherent fictional settings with geography, politics, history, and economics. Maintains consistency across thousands of details. Companion to the Tabletop GM. | Creative |
+| **Writing Partner** | Novel and screenplay development assistant. Maintains character voice consistency, tracks plot threads, provides structural feedback, respects the author's vision. | Creative |
+| **Incident Commander** | Monitors Sentry/Grafana, triages alerts, coordinates incident response, maintains runbooks, produces post-mortems with timeline reconstruction. | Operations |
+| **Release Manager** | Tracks PRs, CI status, and changelog. Drafts release notes, coordinates cross-team dependencies, manages the release calendar. | Operations |
+| **Meeting Scribe** | Connects to calendar and chat platforms. Transcribes and summarizes meetings, tracks action items, follows up on overdue commitments. | Productivity |
+| **Tax Strategist** | Tracks on-chain transactions, classifies for tax purposes, suggests optimization strategies, produces year-end summaries. | Finance |
+| **Health Journal** | Tracks symptoms, medications, and appointments. Identifies patterns, prepares visit summaries for doctors, respects medical privacy boundaries. | Personal |
+| **Learning Coach** | Tracks study progress across subjects. Produces spaced-repetition prompts, identifies knowledge gaps, adapts difficulty based on performance. | Education |
 
 ## What's in an App Package
 
