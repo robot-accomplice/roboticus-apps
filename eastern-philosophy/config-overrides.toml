@@ -1,0 +1,9 @@
+# Config fields merged into the profile's roboticus.toml during install.
+# Only fields listed here are overridden; all other config is preserved.
+
+[agent]
+delegation_enabled = true
+composition_policy = "propose"
+
+[models.routing]
+mode = "primary"

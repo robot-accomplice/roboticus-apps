@@ -1,0 +1,20 @@
+[package]
+name = "western-philosophy"
+version = "1.0.0"
+description = "Rigorous philosophical inquiry in the Western tradition — logic, ethics, epistemology, existentialism, Stoicism, and political philosophy"
+author = "Robot Accomplice AG"
+license = "Apache-2.0"
+min_roboticus_version = "0.11.1"
+homepage = "https://roboticus.ai/apps/western-philosophy"
+repository = "https://github.com/robot-accomplice/roboticus-apps"
+
+[requirements]
+min_model_params = "14B"
+recommended_model = "ollama/qwen2.5:32b"
+embedding_model = "nomic-embed-text"
+delegation_enabled = true
+
+[profile]
+agent_name = "The Philosopher"
+agent_id = "philosopher"
+default_theme = "ai-purple"
